@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+
+
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
+ //Создайте блок-схему, описывающую алгоритм поиска минимального из трех чисел. Запишите алгоритм программно: создайте три переменные с любыми числовыми значениями; используя только вложенные условные операторы if (НЕ логические операторы), найдите минимальное число и отобразите на экране его значение. 
+
+  var x = +prompt(`Vvedite x`, 10);
+  var y = +prompt(`Vvedite y`, 10);
+  var z = +prompt(`Vvedite z`, 10);
+  
+  if(x>y){
+      if(y>z){
+          alert(z);
+      }else{
+          alert(y);
+      }
+  }else{
+      if(x>z){
+          alert(z);
+      }else{
+          alert(x);
+      }
+  }
+
